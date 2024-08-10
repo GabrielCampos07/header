@@ -31,7 +31,7 @@
               "libraryName": "header",
               "libraryTarget": "umd"
             },
-            "deployUrl": "http://localhost:9001/"
+            "deployUrl": "https://single-spa-portfolio.s3.us-east-2.amazonaws.com/header/"
           },
           "configurations": {
             "production": {
