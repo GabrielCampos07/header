@@ -30,11 +30,12 @@
               "path": "extra-webpack.config.js",
               "libraryName": "header",
               "libraryTarget": "umd"
-            },
-            "deployUrl": "https://single-spa-portfolio.s3.us-east-2.amazonaws.com/header/"
+            }
           },
           "configurations": {
             "production": {
+              "deployUrl": "https://single-spa-portfolio.s3.us-east-2.amazonaws.com/header/",
+              "baseHref": "/",
               "budgets": [
                 {
                   "type": "initial",
@@ -50,6 +51,7 @@
               "outputHashing": "none"
             },
             "development": {
+              "deployUrl": "http://localhost:9001/",
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true,
